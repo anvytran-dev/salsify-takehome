@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Progress Bar</title>
-		<link rel="stylesheet" href="css/style.css"> 
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Progress Bar</title>
+	<link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+	
+	<main class ="mainActivity">
+		<!-- Title -->
+		<section class="secTitle">
+			<h1 id="h1Title">Salsify Progress Bar</h1>
+		</section>
+		<!-- Input -->
+		<section class="secInputBar">
+			<input id="userInput" type="number" placeholder="Choose a value 0 - 100">
+			<button id="runButton">Run</button>
+		</section>
+		<!-- Invalid Msg -->
+		<section class="secInvalidMsg">
+			<h2 id="h2Invalid"></h2>
+		</section>
+		<!-- Bar -->
+		<section class ="secProgressBar">
+			<div class ="divProgressBarWrapper">
+				<div id ="progressBar"></div>
+			</div>
+		</section>
 		
-		<main class ="mainActivity">
-			<!-- Title -->
-			<section class="secTitle">
-				<h1 id="h1Title">Salsify Progress Bar</h1>
-			</section>
-			<!-- Input -->
-			<section class="secInputBar">
-				<input id="userInput" type="number" placeholder="Choose a value 0 - 100">
-				<button id="runButton">Run</button>
-			</section>
-			<!-- Invalid Msg -->
-			<section class="secInvalidMsg">
-				<h2 id="h2Invalid"></h2>
-			</section>
-			<!-- Bar -->
-			<section class ="secProgressBar">
-				<div class ="divProgressBarWrapper">
-					<div id ="progressBar"></div>
-				</div>
-			</section>
-
-		</main>
-
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+	</main>
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
