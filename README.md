@@ -4,6 +4,7 @@ Upon clicking enter, the progress bar updates. Upon clicking the button, the bar
 
 Link to Project: https://salsify-anvytran.netlify.app/
 
+![Project Image](/img/bar.png)
 
 ### How It's Made:
 
