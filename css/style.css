@@ -3,46 +3,35 @@
     font-size: 62.5%;
 }
 
-body{
-    background: linear-gradient(to bottom, rgba(97, 190, 197, 0.8) 0%, rgba(237, 241, 238, 0.8) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    padding: 0;
-    margin: 0;    
-}
-
 .mainActivity{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-}
-
-#h1Title{
-    font-size:5rem;
+    width: 100%;
 }
 
 .secInputBar{
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
 
 #userInput{
-    font-size: 3rem;
-    width: 80%;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: 15%;
 }
 
 #h2Invalid{
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 #runButton{
-    font-size: 6rem;
+    font-size: 2rem;
+    color: white;
     border-radius: 10px;
-    background-color: gainsboro;
+    background-color: rgb(51, 142, 181);
+    padding: 1rem 2rem;
+    margin-left: 1rem;
 }
 
 .secProgressBar{
@@ -58,8 +47,8 @@ body{
 
 #progressBar{
     border-radius: 10px;
-    background-color: rgb(58, 71, 216);
-    height: 5rem;
+    background-color: rgb(49, 143, 91);
+    height: 6rem;
     width: 0%;
 }
 
